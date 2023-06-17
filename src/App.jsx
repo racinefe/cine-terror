@@ -13,7 +13,6 @@ function App() {
           
       <div className="App">
         <Navbar/>
-        <h2>Cine Terror</h2>
         <Outlet/>
       </div>
        
