@@ -1,0 +1,31 @@
+#footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #121212;
+}
+#footer h3 a {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    text-shadow: 2px 2px 5px rgba(255, 0, 0, 0.63);
+}
+
+#footer p {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    color: #f7d354;
+
+}
+.star {
+    width: 30px;
+    height: 20px;
+    color: #f7d354;
+    transition: .5s;
+}
+.star:hover {
+    color: #b8930c;
+    transform: rotateY(180deg);
+}

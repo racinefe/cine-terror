@@ -1,23 +1,19 @@
+import { Outlet } from "react-router-dom";
+import Navbar from "./componentes/Navbar";
+import Footer from "./componentes/Footer";
 
-import { Outlet } from 'react-router-dom';
-import Navbar from './Componentes/Navbar';
 
-import './App.css'
+import "./App.css";
 
 
 function App() {
-  
-
   return (
-    <>
-          
-      <div className="App">
-        <Navbar/>
-        <Outlet/>
-      </div>
-       
-    </>
+    <div className="app-container">
+      <Navbar />
+      <Outlet />
+      <Footer/>
+    </div>
   );
 }
 
-export default App
+export default App;

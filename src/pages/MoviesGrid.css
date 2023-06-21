@@ -1,21 +1,24 @@
-.contaainer .title {
+.container .title {
     color: #fff;
     font-size: 2.5rem;
     text-align: center;
     margin: 2rem 0 1rem;
-}
-.title .query-text {
+  }
+  
+  .title .query-text {
     color: #f7d354;
-}
-.movies-container {
+  }
+  
+  .movies-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 2rem;
     max-width: 1200px;
     margin: 0 auto;
-}
-.movies-container div {
+  }
+  
+  .movies-container div {
     width: 30%;
     color: #fff;
     margin-bottom: 2.5rem;
@@ -24,36 +27,41 @@
     justify-content: space-between;
     background-color: #111;
     padding: 1rem;
-}
-.movies-container div img {
+  }
+  
+  .movies-container div img {
     max-width: 100%;
-}
-.movies-container div img,
-.movies-container div h2,
-.movies-container div p {
+  }
+  
+  .movies-container div img,
+  .movies-container div p {
     margin-bottom: 1rem;
-}
-.movies-container div svg {
+  }
+  
+  .movies-container div h2 {
+    margin-bottom: 1.5rem;
+  }
+  
+  .movies-container div svg {
     color: #f7d354;
-    transition: .5s;
-}
-.movies-container div svg:hover {
+    transition: 1s;
+  }
+  .movies-container svg:hover {
+    transform: rotate(360deg);
     color: #b8930c;
-    transform: rotateY(180deg);
-}
-.movies-container div a {
+  }
+  
+  .movies-container div a {
     background-color: #f7d354;
     border: 2px solid #f7d354;
     border-radius: 4px;
     color: #000;
-    padding: 1rem .5rem;
+    padding: 1rem 0.5rem;
     text-align: center;
     font-weight: bold;
-    align-items: center;
-    
-    transition: .4s;
-}
-.movies-container div a:hover {
+  }
+  
+  .movies-container div a:hover {
     background-color: transparent;
-    color:#f7d354 ;
-}
+    color: #f7d354;
+  }
